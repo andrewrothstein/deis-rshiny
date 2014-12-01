@@ -29,6 +29,4 @@ RUN cp -R /usr/local/lib/R/site-library/shiny/examples/* /srv/shiny-server/
 
 EXPOSE 3838
 
-COPY shiny-server.sh /usr/bin/shiny-server.sh
-
-CMD ["/usr/bin/shiny-server.sh"]
+CMD ["/usr/bin/shiny-server"]
