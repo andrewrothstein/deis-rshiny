@@ -1,7 +1,8 @@
 FROM rocker/r-base
 
-MAINTAINER Winston Chang "winston@rstudio.com"
+MAINTAINER Andrew Rothstein "andrew.rothstein at gmail.com"
 
+RUN apt-get update
 RUN apt-get install -y \
     sudo \
     gdebi-core \
